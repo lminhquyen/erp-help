@@ -11,7 +11,7 @@ Phần mềm có các chức năng như sau:
 
 | Chức năng                          | Mô tả |
 |:----------                         |:------|
-| [Đơn sản xuất](/manufacturing/production-order/) | Tạo/chỉnh sửa kế hoạch |
-| [Phiếu thống kê](/manufacturing/labor-hed/)      | Ghi nhận số liệu thực hiện hàng ngày |
-| [Báo cáo](/manufacturing/reporting)              | Xem tiến độ, năng suất |
-| [Giao diện mobile](/manufacturing/mobile-device) | Nhập phiếu thống kê, xem báo cáo trên di động |
+| [Đơn sản xuất](manufacturing/production-order.md) | Tạo/chỉnh sửa kế hoạch |
+| [Phiếu thống kê](manufacturing/labor-hed.md)      | Ghi nhận số liệu thực hiện hàng ngày |
+| [Báo cáo](manufacturing/reporting.md)              | Xem tiến độ, năng suất |
+| [Giao diện mobile](manufacturing/mobile-device.md) | Nhập phiếu thống kê, xem báo cáo trên di động |

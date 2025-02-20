@@ -5,7 +5,7 @@
 ## Tạo đơn mới
 1. Nhấn nút `Mới`
 2. Điền các thông tin
-![image info](/manufacturing/img/production-order/Screenshot_1.png)
+![image info](img/production-order/Screenshot_1.png)
 3. Nhấn nút `Lấy định mức`
 
     *Kết quả*: Tự động lấy các chi tiết và tính số lượng cần sản xuất
@@ -28,7 +28,7 @@
     **Trạng thái** sẽ chuyển từ `Nháp` sang `Xác nhận`
 
     **Ngày bắt đầu** được ghi nhận.
-    (Đơn nào bắt đầu trước thì đc phân bổ trước, xem thêm phần [Phiếu thống kê](/labor-hed/))
+    (Đơn nào bắt đầu trước thì đc phân bổ trước, xem thêm phần [Phiếu thống kê](labor-hed.md))
 
 ## Đóng đơn
 1. Nhấn nút `Hoàn thành`
@@ -37,4 +37,4 @@
 
     Đơn ko còn hiện trong danh sách đơn hiện tại
 
-    Đơn ko còn hiện lúc thêm số lượng phiếu thống kê, [xem thêm](/labor-hed/)
+    Đơn ko còn hiện lúc thêm số lượng phiếu thống kê, [xem thêm](labor-hed.md)
