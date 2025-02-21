@@ -1,43 +1,32 @@
 # Phiếu thống kê
-
-# Menu
-    Sản xuất -> Nhập liệu -> Phiếu thống kê\Của tôi
-
-# Điều chỉnh số dư ban đầu
-Tương tự như tạo phiếu mới với số lượng là số đã làm đc (luỹ kế) của từng chi tiết/công đoạn.
-
-Tham khảo thao tác dưới đây
-
-# Tạo phiếu mới
-1. Nhấn nút `Mới`
-2. Chọn **Tổ** (bắt buộc) và **Ngày** (nếu cần)
-3. Nhấn nút `Thêm/Sửa...`
-
-    Hiện ra hộp thoại
-
-    Chọn sản phẩm
-
-    Điền số lượng làm được
-
-    Nhấn nút `Xác nhận` hộp thoại
-
-4. Nhấn nút `Xác nhận` phiếu
+*Menu:* Sản xuất -> Nhập liệu -> Phiếu thống kê\Của tôi
 
 ## Tìm kiếm phiếu
 1. Lọc theo `Tổ`
+    ![image info](img/labor-hed/filter_1.png)
 2. Bỏ lọc `Hôm nay`
+    Mặc định chỉ hiện các phiếu được nhập hôm nay.
 
-## Phân bổ lại số lượng (dành cho quản lý)
-Trường hợp muốn sửa lại kết quả phân bổ tự động
+    Để hiện tất cả phiếu, nhấn nút bỏ lọc `Hôm nay`
+    ![image info](img/labor-hed/filter_2.png)
 
-1. Mở phiếu muốn điều chỉnh
-2. Chọn tab `Phân bổ`
-3. Nhấn nút `Thêm/Sửa`
-    
+## Tạo phiếu mới
+1. Nhấn nút `Mới`
+2. Chọn **Tổ** (bắt buộc) và sửa lại **Ngày** (nếu cần)
+    ![image info](img/labor-hed/create_1.png)
+3. Nhấn nút `Thêm/Sửa...`
+    ![image info](img/labor-hed/create_2.png)
+
     Hiện ra hộp thoại
-    
-    Chọn sản phẩm
 
-    Điền/sửa lại số lượng làm đc theo PO
+    3.1 Chọn sản phẩm
+    ![image info](img/labor-hed/wizard_1.png)
 
-    Nhấn nút `Xác nhận` hộp thoại
+    3.2 Điền số lượng làm được
+    ![image info](img/labor-hed/wizard_2.png)
+
+    3.3 Nhấn nút `Xác nhận` hộp thoại
+
+## Xác nhận phiếu
+1. Nhấn nút `Xác nhận` phiếu
+    ![image info](img/labor-hed/confirm_1.png)

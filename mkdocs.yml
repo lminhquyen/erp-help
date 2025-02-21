@@ -7,5 +7,6 @@ nav:
   - Sản xuất:
     - 'manufacturing/production-order.md'
     - 'manufacturing/labor-hed.md'
+    - 'manufacturing/labor-hed-admin.md'
     - 'manufacturing/reporting.md'
     - 'manufacturing/mobile-device.md'
