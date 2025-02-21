@@ -1,12 +1,11 @@
 # Báo cáo
 
-# Menu
-    Sản xuất -> Báo cáo
+*Menu:* Sản xuất -> Báo cáo
 
-# Báo cáo công đoạn
+## Báo cáo công đoạn
 Số lượng cần làm/đã làm/còn lại theo từng Tổ
 
-1. Gom tổng số lượng
+1. Tổng số lượng
 
         Sản xuất -> Báo cáo -> Công đoạn sản xuất\Tổng cộng
 
@@ -14,7 +13,7 @@ Số lượng cần làm/đã làm/còn lại theo từng Tổ
 
         Sản xuất -> Báo cáo -> Công đoạn sản xuất\Theo PO
 
-# Báo cáo năng suất
+## Báo cáo năng suất
 Số lượng làm được theo Ngày/Tổ/Sản phẩm
 
-    Sản xuất -> Báo cáo -> Năng suất
+        Sản xuất -> Báo cáo -> Năng suất
