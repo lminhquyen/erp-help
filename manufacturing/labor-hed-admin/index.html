@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../img/favicon.ico" />
-    <title>Đơn sản xuất - ERP Help</title>
+    <title>Phiếu thống kê (Người quản lý) - ERP Help</title>
     <link rel="stylesheet" href="../../css/theme.css" />
     <link rel="stylesheet" href="../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "\u0110\u01a1n s\u1ea3n xu\u1ea5t";
-        var mkdocs_page_input_path = "manufacturing/production-order.md";
+        var mkdocs_page_name = "Phi\u1ebfu th\u1ed1ng k\u00ea (Ng\u01b0\u1eddi qu\u1ea3n l\u00fd)";
+        var mkdocs_page_input_path = "manufacturing/labor-hed-admin.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -45,21 +45,23 @@
               </ul>
               <p class="caption"><span class="caption-text">Sản xuất</span></p>
               <ul class="current">
-                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Đơn sản xuất</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#tim-kiem-1-on">Tìm kiếm 1 đơn</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#tao-on-moi">Tạo đơn mới</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#xac-nhan-on">Xác nhận đơn</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#ong-on">Đóng đơn</a>
-    </li>
-    </ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../production-order/">Đơn sản xuất</a>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../labor-hed/">Phiếu thống kê</a>
                   </li>
-                  <li class="toctree-l1"><a class="reference internal" href="../labor-hed-admin/">Phiếu thống kê (Người quản lý)</a>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Phiếu thống kê (Người quản lý)</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#ieu-chinh-so-du-ban-au">Điều chỉnh số dư ban đầu</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#phan-bo-lai-so-luong">Phân bổ lại số lượng</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#quy-tac-phan-bo-tu-ong">Quy tắc phân bổ tự động:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#truong-hop-muon-sua-lai">Trường hợp muốn sửa lại:</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
                   </li>
                   <li class="toctree-l1"><a class="reference internal" href="../reporting/">Báo cáo</a>
                   </li>
@@ -81,7 +83,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Sản xuất</li>
-      <li class="breadcrumb-item active">Đơn sản xuất</li>
+      <li class="breadcrumb-item active">Phiếu thống kê (Người quản lý)</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -90,68 +92,38 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="on-san-xuat">Đơn sản xuất</h1>
-<p><em>Menu:</em> Sản xuất -&gt; Nhập liệu -&gt; Đơn sản xuất</p>
-<h2 id="tim-kiem-1-on">Tìm kiếm 1 đơn</h2>
-<ol>
-<li>Lọc theo sản phẩm
-    Chọn 1 sản phẩm panel trái
-    <img alt="image info" src="../img/production-order/filter_1.png" /></li>
-<li>
-<p>Hiện tất cả các đơn</p>
-<p>Mặc định chỉ hiện các đơn chưa hoàn thành</p>
-<p>Để hiện tất các đơn, nhấn nút bỏ lọc <code>Chưa hoàn thành</code>
-<img alt="image info" src="../img/production-order/filter_2.png" /></p>
-</li>
-</ol>
-<h2 id="tao-on-moi">Tạo đơn mới</h2>
-<ol>
-<li>Nhấn nút <code>Mới</code></li>
-<li>
-<p>Điền các thông tin
-    <img alt="image info" src="../img/production-order/create_1.png" /></p>
-<p><em>Lưu ý</em>: Nếu chưa có sản phẩm thì báo người quản lý để tạo sản phẩm và định mức</p>
-</li>
-<li>
-<p>Nhấn nút <code>Lấy định mức</code></p>
-<p><em>Kết quả</em>: Tự động lấy các chi tiết và tính số lượng cần sản xuất</p>
-<p><img alt="image info" src="../img/production-order/create_2.png" /></p>
-</li>
-<li>
-<p>Sửa số lượng <strong>Tồn đầu</strong> (nếu cần)</p>
-</li>
-</ol>
-<h2 id="xac-nhan-on">Xác nhận đơn</h2>
-<ol>
-<li>
-<p>Nhấn nút <code>Xác nhận</code></p>
-<p><strong>Trạng thái</strong> sẽ chuyển từ <code>Nháp</code> sang <code>Xác nhận</code></p>
-<p><strong>Ngày bắt đầu</strong> được ghi nhận.</p>
-<p><em>Lưu ý:</em> </p>
+                <h1 id="phieu-thong-ke-nguoi-quan-ly">Phiếu thống kê (Người quản lý)</h1>
+<p><em>Menu:</em> Sản xuất -&gt; Nhập liệu -&gt; Phiếu thống kê\Tất cả</p>
+<h2 id="ieu-chinh-so-du-ban-au">Điều chỉnh số dư ban đầu</h2>
+<p>Tương tự như tạo phiếu mới với số lượng là số đã làm đc (luỹ kế) của từng chi tiết/công đoạn.</p>
+<p>Tham khảo thao tác <a href="../labor-hed/">Tạo phiếu mới</a></p>
+<h2 id="phan-bo-lai-so-luong">Phân bổ lại số lượng</h2>
+<h3 id="quy-tac-phan-bo-tu-ong">Quy tắc phân bổ tự động:</h3>
 <ul>
-<li>
-<p>Đơn nào bắt đầu trước thì đc phân bổ trước</p>
-</li>
-<li>
-<p>Đơn <code>Nháp</code> hoặc <code>Hoàn thành</code> bị ẩn lúc tạo phiếu thống kê, xem thêm phần <a href="../labor-hed-admin/">Phiếu thống kê</a></p>
-</li>
+<li>Đơn nào xác nhận trước phân bổ trước</li>
+<li>Chỉ phân bổ vào những đơn có trạng thái <code>Xác nhận</code> (ẩn những đơn <code>Nháp</code> hoặc <code>Hoàn thành</code>)</li>
 </ul>
-</li>
-</ol>
-<h2 id="ong-on">Đóng đơn</h2>
+<h3 id="truong-hop-muon-sua-lai">Trường hợp muốn sửa lại:</h3>
 <ol>
+<li>Mở phiếu muốn điều chỉnh</li>
+<li>Chọn tab <code>Phân bổ</code></li>
 <li>
-<p>Nhấn nút <code>Hoàn thành</code></p>
-<p><strong>Trạng thái</strong> sẽ chuyển sang <code>Hoàn thành</code>.</p>
-<p>Đơn ko còn hiện trong danh sách đơn hiện tại</p>
+<p>Nhấn nút <code>Thêm/Sửa</code>
+    <img alt="image info" src="../img/labor-hed-admin/edit_1.png" /></p>
+<p>Hiện ra hộp thoại</p>
+<p>3.1 Chọn sản phẩm
+<img alt="image info" src="../img/labor-hed-admin/wizard_1.png" /></p>
+<p>3.2 Điền/sửa lại số lượng làm đc theo PO
+<img alt="image info" src="../img/labor-hed-admin/wizard_2.png" /></p>
+<p>3.3 Nhấn nút <code>Xác nhận</code> hộp thoại</p>
 </li>
 </ol>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../.." class="btn btn-neutral float-left" title="Giới thiệu"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../labor-hed/" class="btn btn-neutral float-right" title="Phiếu thống kê">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../labor-hed/" class="btn btn-neutral float-left" title="Phiếu thống kê"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../reporting/" class="btn btn-neutral float-right" title="Báo cáo">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -174,10 +146,10 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../.." style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../labor-hed/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../labor-hed/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../reporting/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
